@@ -1,0 +1,29 @@
+
+:root {
+    --white: #fff;
+    --black: #000 ;
+    --gray-color: #f7f7f7;
+    --gray-2-color: #7b7b7b;
+    --green-color: #7faf80;
+    --green-color-secundary: #D4FFD4;
+    --red-color: #ab1111;
+}
+
+h5, h6 {
+    margin: 0.1em;
+}
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#main--container {
+    padding: 82px 20px;
+    @media only screen and (min-width: 468px) {
+        padding: 50px 20px;
+      }
+}

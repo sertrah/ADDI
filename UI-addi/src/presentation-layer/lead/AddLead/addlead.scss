@@ -1,0 +1,12 @@
+.addlead--container{
+    width: 82%;
+    margin: 0 auto;
+    text-align: right;
+    background: var(--gray-color);
+    padding: 22px 18px;
+    margin-top: 20px;
+    box-shadow: 2px 5px 9px -6px rgba(0,0,0,0.88);
+    @media only screen and (min-width: 768px) {
+        width: 400px;
+    }
+}

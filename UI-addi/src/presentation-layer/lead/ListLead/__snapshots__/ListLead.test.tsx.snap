@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Home title 1`] = `
+<div>
+  <section>
+    <h1>
+      List of qualified lead
+    </h1>
+    
+  </section>
+</div>
+`;

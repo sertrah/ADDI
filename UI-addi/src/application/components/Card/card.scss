@@ -1,0 +1,46 @@
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  width: 90%;
+
+  h3 {
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+
+  &-info {
+    background-color: var(--green-color);
+    color: var(--white);
+    padding: 30px;
+    max-width: 100%;
+  }
+
+  &-info p {
+    color: var(--white);
+    display: block;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 2px;
+    text-decoration: none;
+  }
+
+  &-action {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 468px) {
+    display: inline-flex;
+    width: 352px;
+    .card-action {
+      width: 82px;
+      place-self: center;
+    }
+  }
+}
